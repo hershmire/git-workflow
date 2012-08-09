@@ -1,20 +1,17 @@
----
-title: File Size Optimization
----
+# Test File 2
 
-# File Size Optimization
-
-## Compressing CSS and JavaScript
+## Adding more content
 
 Middleman handles CSS minification and Javascript compression so you don't have to worry about it. Most libraries ship minified and compressed versions of their files for users to deploy, but these files are unreadable or editable. Middleman allows you to keep the original, commented files in our project so you can easily read them and edit them if needed. Then, when you build the project, Middleman will handle all the optimization for you.
 
 In your `config.rb`, activate the `minify_css` and `minify_javascript` features during the build of your site.
 
-    :::ruby
-    configure :build do
-      activate :minify_css
-      activate :minify_javascript
-    end
+    :::javascript
+    var something = false;
+    if (something === false)
+    {
+        doSomething();
+    }
     
 If you are already using a compressed file that includes `.min` in its filename, Middleman won't touch it. This can be good for libraries like jQuery which are carefully compressed by their authors ahead of time.
 
@@ -31,24 +28,3 @@ It's a good idea to [serve compressed files](http://developer.yahoo.com/performa
     activate :gzip
 
 Then configure your server to serve those files. If you use Nginx, check out [the gzip_static](http://wiki.nginx.org/NginxHttpGzipStaticModule) module. For Apache, you'll have to do something a little trickier - see [this Gist](https://gist.github.com/2200790) for an example.
-
-## Compressing Images
-
-If you also want to compress images on build, you can use the [Middleman Smusher extension] to dramatically shrink images using [Yahoo's Smush.it tool], though it's probably a better idea to compress your images once using a tool like [PNGGauntlet](http://pnggauntlet.com) or [ImageOptim](http://imageoptim.pornel.net) rather than every time you build your site.
-
-To install:
-
-    :::bash
-    gem install middleman-smusher
-
-Then activate in your `config.rb`:
-
-    :::ruby
-    configure :build do
-      activate :smusher
-    end
-
- 
-
-[Middleman Smusher extension]: https://github.com/middleman/middleman-smusher
-[Yahoo's Smush.it tool]: http://www.smushit.com/ysmush.it/
