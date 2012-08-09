@@ -6,11 +6,12 @@ Middleman handles CSS minification and Javascript compression so you don't have 
 
 In your `config.rb`, activate the `minify_css` and `minify_javascript` features during the build of your site.
 
-    :::ruby
-    configure :build do
-      activate :minify_css
-      activate :minify_javascript
-    end
+    :::javascript
+    var something = false;
+    if (something === false)
+    {
+        doSomething();
+    }
     
 If you are already using a compressed file that includes `.min` in its filename, Middleman won't touch it. This can be good for libraries like jQuery which are carefully compressed by their authors ahead of time.
 
