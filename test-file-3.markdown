@@ -15,9 +15,6 @@ Middleman has the ability to generate pages which do not have a one-to-one relat
 
 When this project is built, four files will be output:
 
-* /about/tom.html (with `@person_name` equalling "tom" in the template)
-* /about/template.html (with `@person_name` being nil in the template)
-
 Now, only the `about/tom.html`, `about/dick.html` and `about/harry.html` files will be output.
 
 ## Arbitrary Ignores
