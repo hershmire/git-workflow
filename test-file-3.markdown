@@ -27,7 +27,7 @@ It is also possible to ignore arbitrary paths when building a site using the new
 
     ignore "/ignore-this-template.html"
 
-You can give ignore exact source paths, filename globs, or regexes.
+You can give ignore exact source paths, filename globs, or regexes. Blah blah blah.
 
 Haha, you are weird.
 
