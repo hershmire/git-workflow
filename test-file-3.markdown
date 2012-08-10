@@ -6,7 +6,20 @@ title: Dynamic Pages
 
 Middleman has the ability to generate pages which do not have a one-to-one relationship with their template files. What this means is that you can have a single template which generates multiple files based on variables. Here's an example `config.rb` setup:
 
+
+Topic 2 change 2.
+
+Topic 2 another commit.
+
 I removed a block of text in Topic 4.
+
+Topic 2 added something here.
+
+Topic 2 added something here too.
+
+Now, only the `about/tom.html`, `about/dick.html` and `about/harry.html` files will be output.
+
+Topic 2 commit 2
 
 ## Arbitrary Ignores
 
@@ -22,4 +35,10 @@ Topic1 change 1.
 
 Topic2 change 2.
 
-Master change 1.
+Topic4 change 1.
+
+Topic 5 change 1.
+
+Topic 5 change 2.
+
+Topic 2 change 2.
