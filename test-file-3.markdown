@@ -28,3 +28,5 @@ You can give ignore exact source paths, filename globs, or regexes.
 Haha, you are weird.
 
 Topic1 change 1.
+
+Topic2 change 2.
