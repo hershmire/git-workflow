@@ -6,6 +6,18 @@ title: Dynamic Pages
 
 Quick topic change 1.
 
+Scot topic change from Eddie.
+
+Scot topic change from Eddie #1.
+
+Scott topic change from skattwood!
+
+Scot topic change from Eddie.
+
+Scot topic change from skattwood.
+
+Scot topic change from Eddie #1.
+
 Middleman has the ability to generate pages which do not have a one-to-one relationship with their template files. What this means is that you can have a single template which generates multiple files based on variables. Here's an example `config.rb` setup:
 
 
@@ -22,6 +34,8 @@ Topic 2 added something here too.
 Now, only the `about/tom.html`, `about/dick.html` and `about/harry.html` files will be output.
 
 Topic 2 commit 2
+
+Scott topic change from Eddie after I rebased from scott-topic
 
 ## Arbitrary Ignores
 
@@ -44,3 +58,11 @@ Topic 5 change 1.
 Topic 5 change 2.
 
 Topic 2 change 2.
+
+test test
+
+Scott topic change 2 from Eddie
+
+test change two
+
+Scott topic eddie change 2.
