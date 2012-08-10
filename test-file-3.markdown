@@ -18,6 +18,15 @@ Scot topic change from skattwood.
 
 Scot topic change from Eddie #1.
 
+New topic change 1.
+
+
+New topic change 1.
+
+new topic change 1
+
+NEW TOPIC CHANGE SKATTWOOD!
+
 Middleman has the ability to generate pages which do not have a one-to-one relationship with their template files. What this means is that you can have a single template which generates multiple files based on variables. Here's an example `config.rb` setup:
 
 
@@ -37,6 +46,10 @@ Topic 2 commit 2
 
 Scott topic change from Eddie after I rebased from scott-topic
 
+new topic change 2
+
+New Topic change 2
+
 ## Arbitrary Ignores
 
 It is also possible to ignore arbitrary paths when building a site using the new `ignore` method in your `config.rb`:
@@ -54,6 +67,8 @@ Topic2 change 2.
 Topic4 change 1.
 
 Topic 5 change 1.
+
+New-top change 1.
 
 Topic 5 change 2.
 
