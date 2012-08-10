@@ -4,6 +4,8 @@ title: Dynamic Pages
 
 # Dynamic Pages
 
+Quick topic change 1.
+
 Middleman has the ability to generate pages which do not have a one-to-one relationship with their template files. What this means is that you can have a single template which generates multiple files based on variables. Here's an example `config.rb` setup:
 
 
